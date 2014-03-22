@@ -1,5 +1,28 @@
+/*
+Author: Rahul Anand <et@eternal-thinker.com>
+        2014-02-21
+
+Description:
+  A full panel to display all et-smileys with their symbols
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. 
+
+The smileys images are created by Rahul Anand. 
+Contact if you want to re-use them for any purpose other than bundled with this script.
+*/
+
 var panel = "\
-<div style='border:1px solid #ccc;background #fff;padding:10px;width:450px;color:#000;font-family:Arial,\"sans serif\";font-size:15px;'>\
+<div id='et-smiley-panel-full' style='border:1px solid #ccc;background #fff;padding:10px;width:450px;color:#000;font-family:Arial,\"sans serif\";font-size:15px;'>\
 <div>\
 <img border='0' src='http://lh5.ggpht.com/_qadpUUgfbYI/Sd4raNCikzI/AAAAAAAAAs8/xXazSXM5gtI/smile.png' style='margin:0 0 0 5px;'/> :) &nbsp; \
 <img border='0' src='http://lh3.ggpht.com/_qadpUUgfbYI/Sd4rP0aRdCI/AAAAAAAAAsU/HAIiliq_T6U/laugh.png' style='margin:0 0 0 5px;'/> :D &nbsp; \

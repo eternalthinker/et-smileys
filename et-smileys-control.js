@@ -94,22 +94,7 @@ function etSmileys() {
     for (i = 0; i < d.length; i++) {    
     	d[i].innerHTML = d[i].innerHTML.replace(    	
     	/ (:(\|\||brow|party|tone|rainbow|et|ET|angel|vD|robot|star|mj|kitten|tup|tdown|fire|ice|-?[\)\(\|DOPo\/]|[\$~@rkLvdfcbeih])|8-?[\)\|]|x[DPo]|(&lt;|<)\\?3|(&gt;|>)\.(&lt;|<)|\\m\/|\^\_\^|o\_O|;-?\))/g,    	    	 
-    	function(symbol) { return ' <img class="et-smiley" src="' + smileyMap[symbol] + '" style="border:0; margin:0; padding:0;" id="new" />' });     
+    	function(symbol) { return ' <img class="et-smiley" src="' + smileyMap[symbol] + '" style="border:0; margin:0; padding:0;" id="new" />' });    
     }    
 }
-
-function addLoadEvent(func) {
-    var oldonload = window.onload;
-    if (typeof window.onload != 'function') {
-        window.onload = func;
-    } else {
-        window.onload = function () {
-            oldonload();
-            func();
-        }
-    }
-}
-addLoadEvent(function () {
-    etSmileys();
-});
 
